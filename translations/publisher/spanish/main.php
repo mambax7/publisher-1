@@ -1,0 +1,90 @@
+<?php
+/**
+ * $Id: main.php 11267 2013-03-20 13:16:32Z cesag $
+ * Module: Publisher
+ * Author: The SmartFactory <www.smartfactory.ca>
+ * Licence: GNU
+ */
+define("_MD_PUBLISHER_ADD_FILE_INTRO","Por favor, rellene este formulario con el fin de adjuntar un archivo a este artículo: '%s'.");
+define("_MD_PUBLISHER_ADD_FILE_TITLE","Agregar un archivo a un artículo");
+define("_MD_PUBLISHER_ADMIN_PAGE",":: Sección Administrativa::");
+define("_MD_PUBLISHER_MODIFY","Modificar");
+define("_MD_PUBLISHER_CANCEL","Cancelar");
+define("_MD_PUBLISHER_CATEGORY_EDIT","Editar categoría");
+define("_MD_PUBLISHER_CATEGORY_SUMMARY","Resumen de %s ");
+define("_MD_PUBLISHER_CATEGORY_SUMMARY_INFO","Sub-categorías entre %s .");
+define("_MD_PUBLISHER_CLEAR","Limpiar");
+define("_MD_PUBLISHER_COMMENTS","Comentario(s)");
+//define("_MD_PUBLISHER_CREATE","Crear artículo");
+define("_MD_PUBLISHER_DATE","Fecha");
+define("_MD_PUBLISHER_DATESUB","Publicado el");
+define("_MD_PUBLISHER_DESCRIPTION","Descripción");
+define("_MD_PUBLISHER_DOWNLOAD_FILE","Descargar este archivo");
+define("_MD_PUBLISHER_EDIT_ARTICLE","Editar un artículo");
+define("_MD_PUBLISHER_EMPTY","Esta categoría actualmente no tiene ningún artículo o sub-categoría");
+define("_MD_PUBLISHER_GOODDAY","Hola <strong>%s</strong>!");
+define("_MD_PUBLISHER_HITS","Visitas");
+define("_MD_PUBLISHER_HITSDETAIL","Este artículo ha sido leído");
+define("_MD_PUBLISHER_HOME","Home");
+define("_MD_PUBLISHER_INDEX_CATEGORIES_SUMMARY","Resumen de Categorías");
+define("_MD_PUBLISHER_INDEX_CATEGORIES_SUMMARY_INFO","Aquí está una lista de las principales categorías y sus subcategorías. Seleccione una categoría para ver los artículos en su interior.");
+define("_MD_PUBLISHER_INDEX_ITEMS","Últimos artículos publicados");
+define("_MD_PUBLISHER_INDEX_ITEMS_INFO","Aquí está una lista de los últimos artículos publicados.");
+define("_MD_PUBLISHER_ITEM","artículo");
+define("_MD_PUBLISHER_ITEM_RECEIVED_AND_PUBLISHED","Su artículo ha sido enviado y publicado de forma automática. Gracias por su contribución!");
+define("_MD_PUBLISHER_ITEM_RECEIVED_NEED_APPROVAL","Su artículo ha sido enviado y será publicado una vez aprobado por un moderador. <br /> Gracias por su contribución!");
+define("_MD_PUBLISHER_ITEMMODIFIED","El artículo fue modificado con éxito!");
+define("_MD_PUBLISHER_ITEMS","Artículos");
+define("_MD_PUBLISHER_ITEMS_INFO","Éstos son los artículos dentro de esta categoría.");
+define("_MD_PUBLISHER_ITEMS_LINKS","Navegue a través de los artículos");
+define("_MD_PUBLISHER_ITEMS_TITLE","Los artículos en %s ");
+define("_MD_PUBLISHER_LAST_SMARTITEM","Último artículo publicado");
+define("_MD_PUBLISHER_NAME","Nombre");
+define("_MD_PUBLISHER_NEED_CATEGORY_ITEM","Para crear un artículo, debe tener permiso apropiado al menos en una categoría.");
+define("_MD_PUBLISHER_NEXT_ITEM","Artículo siguiente");
+define("_MD_PUBLISHER_NO","No");
+define("_MD_PUBLISHER_NO_CAT_EXISTS","Lo sentimos, no hay categoría definida todavía. <br/> Póngase en contacto con el administrador del sitio y dígale al respecto.");
+define("_MD_PUBLISHER_NO_CAT_PERMISSIONS","Lo sentimos, usted no tiene suficientes permisos para acceder a esta zona.");
+define("_MD_PUBLISHER_NO_TOP_PERMISSIONS","Lo sentimos, no hay ningún artículo a mostrar.");
+define("_MD_PUBLISHER_NOCATEGORYSELECTED","No ha seleccionado una categoría válida!");
+define("_MD_PUBLISHER_NOITEMSELECTED","No ha seleccionado un artículo válido!");
+define("_MD_PUBLISHER_ON","en");
+define("_MD_PUBLISHER_OTHER_ITEMS","Otros artículos en esta categoría");
+define("_MD_PUBLISHER_PAGE","Página");
+//define("_MD_PUBLISHER_PREVIEW","Vista Previa");
+define("_MD_PUBLISHER_PREVIOUS_ITEM","Artículo anterior");
+define("_MD_PUBLISHER_PRINTERFRIENDLY","Imprimir este artículo en un formato amigable de impresión");
+define("_MD_PUBLISHER_READS","lecturas");
+define("_MD_PUBLISHER_RSSFEED","Alimentación RSS");
+define("_MD_PUBLISHER_SENDSTORY","Envía este artículo a un amigo");
+define("_MD_PUBLISHER_SUB_CLONE","Duplicar un artículo");
+define("_MD_PUBLISHER_SUB_SMNAME","Enviar un artículo");
+define("_MD_PUBLISHER_SUB_SNEWNAME","Enviar un artículo");
+define("_MD_PUBLISHER_SUBMIT","Enviar un artículo");
+define("_MD_PUBLISHER_SUBMIT_ERROR","Se produjo un error. Su artículo no se envió.");
+define("_MD_PUBLISHER_TOTAL_SMARTITEMS","Total de artículos");
+define("_MD_PUBLISHER_UPLOAD","Subir");
+//define("_MD_PUBLISHER_UPLOAD_FILE","Subir un archivo");
+define("_MD_PUBLISHER_VIEW_MORE","Lea el artículo completo");
+define("_MD_PUBLISHER_WHO_WHEN","Publicado por %s  en %s ");
+define("_MD_PUBLISHER_PRINT_CLOSE","Cerrar esta ventana");
+//added in publisher
+define("_MD_PUBLISHER_VOTE_BAD","Mal voto, por favor intente de nuevo!");
+define("_MD_PUBLISHER_VOTE_ALREADY","Lo sentimos, usted ya ha votado por este artículo!");
+define("_MD_PUBLISHER_VOTE_THANKS","Gracias por tu voto!");
+define("_MD_PUBLISHER_VOTE_lVOTE","voto");
+define("_MD_PUBLISHER_VOTE_lVOTES","votos");
+define("_MD_PUBLISHER_VOTE_RATING","Valoración");
+define("_MD_PUBLISHER_VOTE_DISABLE","Los votos están desabilitados!");
+define("_MD_PUBLISHER_VOTE_OUTOF","fuera de");
+define("_MD_PUBLISHER_ITEMS_SAME_AUTHOR","Artículos del mismo autor");
+define("_MD_PUBLISHER_TOTAL_ITEMS","Total de Artículos:");
+define("_MD_PUBLISHER_TOTAL_HITS","Total de lecturas:");
+define("_MD_PUBLISHER_NO_AUTHOR_ITEMS","No hay artículos de este autor");
+define("_MD_PUBLISHER_ARCHIVES","Archivos de Artículos");
+define("_MD_PUBLISHER_ACTIONS","Acciones");
+define("_MD_PUBLISHER_PREVIOUSIMG","Anterior");
+define("_MD_PUBLISHER_NEXTIMG","Siguiente");
+define("_MD_PUBLISHER_CLOSE","Cerrar");
+define("_MD_PUBLISHER_ENLARGEIMG","Agrandar");
+define("_MD_PUBLISHER_OF"," de ");

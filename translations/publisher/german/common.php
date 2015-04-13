@@ -1,0 +1,106 @@
+<?php
+/**
+ * $Id: common.php 11267 2013-03-20 13:16:32Z cesag $
+ * Module: Publisher
+ * Author: The SmartFactory <www.smartfactory.ca>
+ * Licence: GNU
+ */
+define("_CO_PUBLISHER_MESSAGE_FILE_ERROR","Fehler: Kann hochgeladene Datei aus den folgenden Gründen nicht speichern: %s");
+define("_CO_PUBLISHER_MESSAGE_WRONG_MIMETYPE","Fehler: Datei Typ nicht erlaubt.Bitte erneut eintragen");
+define("_CO_PUBLISHER_ALLOWCOMMENTS","Dürfen Artikel kommentiert werden?");
+define("_CO_PUBLISHER_AUTHOR_ALIAS","Autor (alias)");
+define("_CO_PUBLISHER_AUTHOR_ALIAS_DSC","Wählen Sie den Aliasnamen des Einsenders.Er wird dann anstelle von \"Anonymous\" verwendet und die ID des Artikels auf 0 gesetzt");
+define("_CO_PUBLISHER_AVAILABLE_PAGE_WRAP","Verfügbare Seiten wrappen");
+define("_CO_PUBLISHER_AVAILABLE_PAGE_WRAP_DSC","Hier sind die verfügbaren Seiten zum Einfügen ins Webprojekt. Klicken Sie auf die Seite (n), die Sie einfügen würden. Funktioniert mit XOOPS Editor nur für diesen Augenblick. Manuell hinzufügen, wenn Sie einem anderen Editor verwenden.");
+define("_CO_PUBLISHER_DATESUB","Veröffentlichungsdatum");
+define("_CO_PUBLISHER_DATESUB_DSC","Datum/Uhrzeit der Veröffentlichung wählen");
+define("_CO_PUBLISHER_ITEM_META_DESCRIPTION","Meta Beschreibung");
+define("_CO_PUBLISHER_ITEM_META_DESCRIPTION_DSC","Um die Anzeige in Suchmaschinen zu verbessern, könne Sie hier Ihre Meta-Beschreibung für diesen Artikel anpassen. Wenn Sie dieses Feld frei lassen, wird das Zusammenfassungsfeld des Artikels als Meta-Bescheibung herangezogen.");
+define("_CO_PUBLISHER_ITEM_META_KEYWORDS","Meta Schlüsselworte");
+define("_CO_PUBLISHER_ITEM_META_KEYWORDS_DSC","Um Suchmaschinen zu helfen, sollten Sie hier die Keywords anpassen, die Sie gerne für diesen Artikel verwenden möchten. Wenn Sie dieses Feld leer lassen bei der Erstellung eines Artikels, wird es automatisch mit Wörtern aus dem Feld Zusammenfassung dieses Artikels bestückt.");
+define("_CO_PUBLISHER_ITEM_SHORT_URL","Kurz URL");
+define("_CO_PUBLISHER_ITEM_SHORT_URL_DSC","Bei der Nutzung der SEO-Features in diesem Moduls können Sie eine Short URL für diesen Artikel anzugeben. Dieses Feld ist optional.");
+define("_CO_PUBLISHER_OFFLINE","Offline");
+define("_CO_PUBLISHER_PERMISSIONS_ITEM","Berechtigungen");
+define("_CO_PUBLISHER_PERMISSIONS_ITEM_DSC","Gruppen die Berechtigung haben diesen Eintrag zu sehen");
+define("_CO_PUBLISHER_PUBLISHED","Veröffentlicht");
+define("_CO_PUBLISHER_REJECTED","Abgelehnt");
+define("_CO_PUBLISHER_STATUS","Status");
+define("_CO_PUBLISHER_STATUS_DSC","Status des Artikels auswählen");
+define("_CO_PUBLISHER_SUBMITTED","Eingereicht");
+define("_CO_PUBLISHER_UID","Autor");
+define("_CO_PUBLISHER_UID_DSC","Autor auswählen");
+define("_CO_PUBLISHER_WEIGHT","Gewicht");
+define("_CO_PUBLISHER_ITEM_UPLOAD_FILE","Datei upload");
+define("_CO_PUBLISHER_ITEM_UPLOAD_FILE_DSC","Select a file from your computer to attach it to this article. You will be able to add more files once the article has been created. Simply edit the article and scroll at the bottom of the page to see the Add file button.<br /><br /> For example, you could add a Word document or an Excel document. You can even upload a Flash file and it will be directly embedded into your article! ");
+//define("_CO_PUBLISHER_OPTIONS","Optionen");
+define("_CO_PUBLISHER_DISPLAY_SUMMARY","Display summary on the item page ?");
+define("_CO_PUBLISHER_DOHTML","Enable HTML tags");
+define("_CO_PUBLISHER_DOIMAGE","Enable images");
+define("_CO_PUBLISHER_DOLINEBREAK","Enable line break");
+define("_CO_PUBLISHER_DOSMILEY","Enable smiley icons");
+define("_CO_PUBLISHER_DOXCODE","Enable XOOPS codes");
+define("_CO_PUBLISHER_EDIT","Bearbeite Artikel");
+define("_CO_PUBLISHER_CLONE","Artikel duplizieren");
+define("_CO_PUBLISHER_ADD_FILE","Add a file");
+define("_CO_PUBLISHER_DELETE","Artikel löschen");
+define("_CO_PUBLISHER_PDF","View this article in PDF format");
+define("_CO_PUBLISHER_PRINT","Print article");
+define("_CO_PUBLISHER_MAIL","Send article");
+define("_CO_PUBLISHER_INTITEM","Have a look at this article at %s");
+define("_CO_PUBLISHER_INTITEMFOUND","Hier ist ein interessanter Artikel den ich auf %s gefunden habe");
+define("_CO_PUBLISHER_POSTEDBY","Veröffentlicht von %s auf %s: ");
+define("_CO_PUBLISHER_BODY","Beitragstext");
+define("_CO_PUBLISHER_BODY_DSC","Article's body");
+define("_CO_PUBLISHER_CATEGORY","Newsletterkategorien");
+define("_CO_PUBLISHER_CATEGORY_DSC","Article's category.");
+define("_CO_PUBLISHER_IMAGE_ITEM","Article featured image");
+define("_CO_PUBLISHER_IMAGE_ITEM_DSC","Artikelbild");
+define("_CO_PUBLISHER_IMAGE_UPLOAD","Bild hochladen");
+//define("_CO_PUBLISHER_IMAGE_UPLOAD_ITEM_DSC","Wählen Sie ein Bild auf Ihrem Computer. <br /> Dieses Bild wird zu der Webseite <br />  als Artikelbild hochgeladen.");
+define("_CO_PUBLISHER_SUBCATEGORIES_INFO","Subcategories within <em>%s</em> :");
+define("_CO_PUBLISHER_SUMMARY","Block summary");
+define("_CO_PUBLISHER_SUMMARY_DSC","This summary is used for blocks, index and category pages. It does not display inside article.");
+define("_CO_PUBLISHER_TITLE","Titel");
+define("_CO_PUBLISHER_SUBTITLE","Sub title");
+define("_CO_PUBLISHER_ERROR","Sorry, some error occurred!");
+define("_CO_PUBLISHER_SORTBY","Sortiert nach:");
+define("_CO_PUBLISHER_ADD","Hinzufügen");
+define("_CO_PUBLISHER_REMOVE","Löschen");
+define("_CO_PUBLISHER_PREVIEW","Vorschau");
+define("_CO_PUBLISHER_CREATE","Erstellen");
+define("_CO_PUBLISHER_CLEAR","Leeren");
+define("_CO_PUBLISHER_CANCEL","Abbrechen");
+define("_CO_PUBLISHER_IMAGE_ITEMS","Article images");
+define("_CO_PUBLISHER_IMAGE_ITEMS_DSC","Please choose the images related to this article");
+define("_CO_PUBLISHER_IMAGE_PREVIEW","Image preview");
+define("_CO_PUBLISHER_NOTIFY","Bei Ver&ouml;ffentlichung benachrichtigen?");
+define("_CO_PUBLISHER_FILEUPLOAD_ERROR","An error occurred while uploading the file.");
+define("_CO_PUBLISHER_FILEUPLOAD_SUCCESS","Datei wurde vollständig hochgeladen");
+define("_CO_PUBLISHER_NEW_FEATURE","New feature!");
+define("_CO_PUBLISHER_TAB_MAIN","Hauptseite");
+define("_CO_PUBLISHER_TAB_IMAGES","Bilder");
+define("_CO_PUBLISHER_TAB_OTHERS","Others");
+define("_CO_PUBLISHER_TAB_META","Meta data");
+define("_CO_PUBLISHER_TAB_PERMISSIONS","Berechtigungen");
+define("_CO_PUBLISHER_IMAGE_UPLOAD_NEW","Upload new image");
+//define("_CO_PUBLISHER_IMAGE_UPLOADING","Uploading");
+define("_CO_PUBLISHER_IMAGE_NICENAME","Enter image name");
+define("_CO_PUBLISHER_IMAGE_CAT_NONE","No image category found");
+define("_CO_PUBLISHER_IMAGE_CAT_NOPERM","You have no permissions to use this image category");
+//30/04/2012
+define("_CO_PUBLISHER_TAB_FILES","Dateien");
+define("_CO_PUBLISHER_FILE","Dateien");
+define("_CO_PUBLISHER_FILE_DESCRIPTION","Beschreibung");
+define("_CO_PUBLISHER_FILE_DESCRIPTION_DSC","Beschreibung der Datei, die hochgeladen wurde.");
+define("_CO_PUBLISHER_FILE_NAME_DSC","Name, der verwendet wird, um die Datei zu identifizieren");
+define("_CO_PUBLISHER_FILE_STATUS","Datei sichtbar?");
+define("_CO_PUBLISHER_FILE_STATUS_DSC","Wenn Sie Nein wählen, wird die Datei nicht sichtbar gemacht im Anwenderbereich");
+define("_CO_PUBLISHER_FILE_TO_UPLOAD","Datei zum hochladen:");
+define("_CO_PUBLISHER_FILE_TYPE","Dateityp");
+define("_CO_PUBLISHER_FILE_UPLOAD_ANOTHER","Nochmal hochladen");
+define("_CO_PUBLISHER_FILENAME","Datei Name");
+define("_CO_PUBLISHER_FILES_LINKED","Files linked to this article");
+//Added 30/05/2012
+define("_CO_PUBLISHER_EDITFILE","Edit file");
+define("_CO_PUBLISHER_DELETEFILE","Delete file");

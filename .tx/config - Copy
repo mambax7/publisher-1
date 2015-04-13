@@ -1,0 +1,68 @@
+[main]
+host = https://www.transifex.com
+
+[publisher-1.adminphp]
+file_filter = translations/publisher-1.adminphp/<lang>.php
+source_lang = en_GB
+type = PHP_DEFINE
+
+[publisher-1.blocksphp]
+file_filter = translations/publisher-1.blocksphp/<lang>.php
+source_lang = en_GB
+type = PHP_DEFINE
+
+[publisher-1.category_item_publishedtpl]
+file_filter = translations/publisher-1.category_item_publishedtpl/<lang>.html
+source_lang = en_GB
+type = HTML
+
+[publisher-1.category_item_submittedtpl]
+file_filter = translations/publisher-1.category_item_submittedtpl/<lang>.html
+source_lang = en_GB
+type = HTML
+
+[publisher-1.commonphp]
+file_filter = translations/publisher-1.commonphp/<lang>.php
+source_lang = en_GB
+type = PHP_DEFINE
+
+[publisher-1.global_item_category_createdtpl]
+file_filter = translations/publisher-1.global_item_category_createdtpl/<lang>.html
+source_lang = en_GB
+type = HTML
+
+[publisher-1.global_item_publishedtpl]
+file_filter = translations/publisher-1.global_item_publishedtpl/<lang>.html
+source_lang = en_GB
+type = HTML
+
+[publisher-1.global_item_submittedtpl]
+file_filter = translations/publisher-1.global_item_submittedtpl/<lang>.html
+source_lang = en_GB
+type = HTML
+
+[publisher-1.helphtmltxt]
+file_filter = translations/publisher-1.helphtmltxt/<lang>.txt
+source_lang = en_GB
+type = TXT
+
+[publisher-1.item_approvedtpl]
+file_filter = translations/publisher-1.item_approvedtpl/<lang>.html
+source_lang = en_GB
+type = HTML
+
+[publisher-1.item_rejectedtpl]
+file_filter = translations/publisher-1.item_rejectedtpl/<lang>.html
+source_lang = en_GB
+type = HTML
+
+[publisher-1.mainphp]
+file_filter = translations/publisher-1.mainphp/<lang>.php
+source_lang = en_GB
+type = PHP_DEFINE
+
+[publisher-1.modinfophp]
+file_filter = translations/publisher-1.modinfophp/<lang>.php
+source_lang = en_GB
+type = PHP_DEFINE
+
