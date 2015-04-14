@@ -308,10 +308,10 @@ define("_MI_PUBLISHER_DISP_CAT_SUB_DSC","");
 define("_MI_PUBLISHER_DISP_ITEM_SUB","Display item subtitle in item page?");
 define("_MI_PUBLISHER_DISP_ITEM_SUB_DSC","");
 //30/04/2012
-define("_MI_PUBLISHER_ALLOWEDIT","User article edit?");
-define("_MI_PUBLISHER_ALLOWEDITDSC","Allow users to edit their own articles?");
-define("_MI_PUBLISHER_ALLOWDELETE","User article delete?");
-define("_MI_PUBLISHER_ALLOWDELETEDSC","Allow users to delete their own articles?");
+define("_MI_PUBLISHER_ALLOWEDIT","Eigene Artikel editierbar?");
+define("_MI_PUBLISHER_ALLOWEDITDSC","Erlauben den Benutzern, ihre eigenen Artikel zu editieren?");
+define("_MI_PUBLISHER_ALLOWDELETE","Eigene Artikel löschbar");
+define("_MI_PUBLISHER_ALLOWDELETEDSC","Erlauben den Benutzern, ihre eigenen Artikel zu löschen?");
 
 //1.02 Beta 2
 define("_MI_PUBLISHER_DISPLAY_PDF","Display PDF Icon");
