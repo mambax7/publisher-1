@@ -261,7 +261,7 @@ define("_MI_PUBLISHER_CONFCAT_SEO","SEO");
 define("_MI_PUBLISHER_CONFCAT_SEO_DSC","Preferences for rewriting methods, meta data, etc");
 define("_MI_PUBLISHER_CONFCAT_FORMAT","Format");
 define("_MI_PUBLISHER_CONFCAT_FORMAT_DSC","");
-define("_MI_PUBLISHER_CONFCAT_PRINT","Print page");
+define("_MI_PUBLISHER_CONFCAT_PRINT","Wydrukuj stronę");
 define("_MI_PUBLISHER_CONFCAT_PRINT_DSC","");
 define("_MI_PUBLISHER_CONFCAT_OTHERS","Pozostałe");
 define("_MI_PUBLISHER_CONFCAT_OTHERS_DSC","");
