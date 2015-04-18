@@ -300,7 +300,7 @@ define("_MI_PUBLISHER_ALLOW_AUTHOR_ITEMS_DSC","");
 define("_MI_PUBLISHER_AUTHOR_ITEMS_DSC","Show items from the same author");
 define("_MI_PUBLISHER_DISP_BLOCK_SUM","Display block summary on items page?");
 define("_MI_PUBLISHER_DISP_BLOCK_SUM_DSC","");
-define("_MI_PUBLISHER_ADMENU0","Home5");
+define("_MI_PUBLISHER_ADMENU0","Home");
 define("_MI_PUBLISHER_DISP_INDEX_SUB","Display items subtitles in index page?");
 define("_MI_PUBLISHER_DISP_INDEX_SUB_DSC","");
 define("_MI_PUBLISHER_DISP_CAT_SUB","Display items subtitles in categories pages?");
