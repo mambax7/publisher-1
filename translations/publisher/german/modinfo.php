@@ -314,5 +314,5 @@ define("_MI_PUBLISHER_ALLOWDELETE","Eigene Artikel löschbar");
 define("_MI_PUBLISHER_ALLOWDELETEDSC","Erlauben den Benutzern, ihre eigenen Artikel zu löschen?");
 
 //1.02 Beta 2
-define("_MI_PUBLISHER_DISPLAY_PDF","Display PDF Icon2");
+define("_MI_PUBLISHER_DISPLAY_PDF","Display PDF Icon");
 define("_MI_PUBLISHER_DISPLAY_PDF_DSC","Select Yes to show PDF icon and allow users to create PDF files");
