@@ -92,7 +92,7 @@ define("_MI_PUBLISHER_INDEXFOOTERDSC","Footer that will be displayed at the inde
 define("_MI_PUBLISHER_INDEXMSG","Index page welcome message:");
 define("_MI_PUBLISHER_INDEXMSGDEF","");
 define("_MI_PUBLISHER_INDEXMSGDSC","Welcome message to be displayed in the index page of the module.");
-define("_MI_PUBLISHER_ITEM_APPROVED_NOTIFY","Article approved");
+define("_MI_PUBLISHER_ITEM_APPROVED_NOTIFY","Artikel wurde genehmigt.");
 define("_MI_PUBLISHER_ITEM_APPROVED_NOTIFY_CAP","Notify me when this article is approved.");
 define("_MI_PUBLISHER_ITEM_APPROVED_NOTIFY_DSC","Receive notification when this article is approved.");
 define("_MI_PUBLISHER_ITEM_APPROVED_NOTIFY_SBJ","[{X_SITENAME}] {X_MODULE} auto-notify: article approved");
