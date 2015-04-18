@@ -1,0 +1,106 @@
+<?php
+/**
+ * $Id: common.php 11267 2013-03-20 13:16:32Z cesag $
+ * Module: Publisher
+ * Author: The SmartFactory <www.smartfactory.ca>
+ * Licence: GNU
+ */
+define("_CO_PUBLISHER_MESSAGE_FILE_ERROR","Błąd: Nie można zapisać dodanego pliku z następującego powodu: <br />%s");
+define("_CO_PUBLISHER_MESSAGE_WRONG_MIMETYPE","Błąd: typ pliku nie jest dozwolony. Proszę ponownie przesłać.");
+define("_CO_PUBLISHER_ALLOWCOMMENTS","Czy można artykuł skomentować?");
+define("_CO_PUBLISHER_AUTHOR_ALIAS","Alias autora");
+define("_CO_PUBLISHER_AUTHOR_ALIAS_DSC","Wybierz alias autora. Będzie on używany zamiast \"anonimowy\" i spowoduje ustawienie ID właściciela artykułu do 0");
+define("_CO_PUBLISHER_AVAILABLE_PAGE_WRAP","Dostępne strony do zawijania ");
+define("_CO_PUBLISHER_AVAILABLE_PAGE_WRAP_DSC","Strony dostępne do zawijania. Kliknij na strony którą chcesz zawinąć. Chwilowo współpracuje tylko z XOOPS edytorem. Dodaj ręcznie, jeśli używasz innego edytora.");
+define("_CO_PUBLISHER_DATESUB","Data publikacji");
+define("_CO_PUBLISHER_DATESUB_DSC","Wybierz datę publikacji");
+define("_CO_PUBLISHER_ITEM_META_DESCRIPTION","Opis Meta");
+define("_CO_PUBLISHER_ITEM_META_DESCRIPTION_DSC","Aby wspomóc Wyszukiwarki Internetowe w indeksowaniu serwisu, możesz dostosować Opis Meta tego artykułu. Jeśli pole nie zostanie wypełnione, automat wstawi do niego zawartość z pola Podsumowania tego artykułu.");
+define("_CO_PUBLISHER_ITEM_META_KEYWORDS","Meta Słowa Kluczowe");
+define("_CO_PUBLISHER_ITEM_META_KEYWORDS_DSC","Aby wspomóc Wyszukiwarki Internetowe w indeksowaniu serwisu, można przygotować własny zestaw słów kluczowych używanych w tym artykule. Jeśli pole nie zostanie wypełnione podczas tworzenia kategorii, automat wstawi do niego zawartość z pola Podsumowania tego artykułu.");
+define("_CO_PUBLISHER_ITEM_SHORT_URL","Przyjazne URL");
+define("_CO_PUBLISHER_ITEM_SHORT_URL_DSC","Jeśli dla modułu jest uruchomiona opcja SEO, można zdefiniować Przyjazny URL dla tej kategorii. Pole jest opcjonalne.");
+define("_CO_PUBLISHER_OFFLINE","Nieaktywne");
+define("_CO_PUBLISHER_PERMISSIONS_ITEM","Uprawnienia");
+define("_CO_PUBLISHER_PERMISSIONS_ITEM_DSC","Grupy, które będą miały uprawnienie, aby zobaczyć ten element.");
+define("_CO_PUBLISHER_PUBLISHED","Wysłany dnia");
+define("_CO_PUBLISHER_REJECTED","Odrzucone");
+define("_CO_PUBLISHER_STATUS","Status");
+define("_CO_PUBLISHER_STATUS_DSC","Wybierz status tego artykułu");
+define("_CO_PUBLISHER_SUBMITTED","Przesłano");
+define("_CO_PUBLISHER_UID","Nazwisko autora");
+define("_CO_PUBLISHER_UID_DSC","Wybierz nazwisko autora ");
+define("_CO_PUBLISHER_WEIGHT","waga");
+define("_CO_PUBLISHER_ITEM_UPLOAD_FILE","Prześlij plik");
+define("_CO_PUBLISHER_ITEM_UPLOAD_FILE_DSC","Wybierz plik z komputera, aby dołączyć go do tego artykułu. Będziesz mógł dodać więcej plików po stworzeniu artykułu. Po prostu edytuj ten artykuł i przejdź na dół strony, aby zobaczyć przycisk \"Dodaj plik\". <br /> <br /> Na przykład, można dodać dokumenty Word lub Excel. Można nawet przesłać plik Flash i będzie to bezpośrednio wbudowane w twój artykuł!");
+//define("_CO_PUBLISHER_OPTIONS","Opcje");
+define("_CO_PUBLISHER_DISPLAY_SUMMARY","Pokazać Podsumowanie na stronie artykułu ?");
+define("_CO_PUBLISHER_DOHTML","Włącz znaczniki HTML");
+define("_CO_PUBLISHER_DOIMAGE","Włącz obrazki");
+define("_CO_PUBLISHER_DOLINEBREAK","Włącz złamanie linii");
+define("_CO_PUBLISHER_DOSMILEY","Włącz ikony smiley");
+define("_CO_PUBLISHER_DOXCODE","Włącz kody XOOPS");
+define("_CO_PUBLISHER_EDIT","Edytuj artykuł");
+define("_CO_PUBLISHER_CLONE","Duplikuj");
+define("_CO_PUBLISHER_ADD_FILE","Dodaj plik");
+define("_CO_PUBLISHER_DELETE","Usuń artykuł");
+define("_CO_PUBLISHER_PDF","Zobacz ten artykuł w formacie PDF");
+define("_CO_PUBLISHER_PRINT","Wydrukuj artykuł");
+define("_CO_PUBLISHER_MAIL","Wyślij artykuł");
+define("_CO_PUBLISHER_INTITEM","Zobacz ten artykuł w  %s");
+define("_CO_PUBLISHER_INTITEMFOUND","Znalazłem bardzo interesujący artykuł na stronie %s");
+define("_CO_PUBLISHER_POSTEDBY","Opublikowane przez %s w %s");
+define("_CO_PUBLISHER_BODY","Zawartość");
+define("_CO_PUBLISHER_BODY_DSC","Treść artykułu");
+define("_CO_PUBLISHER_CATEGORY","Kategoria");
+define("_CO_PUBLISHER_CATEGORY_DSC","Kategoria artykułu");
+define("_CO_PUBLISHER_IMAGE_ITEM","Zdjęcie representatywne artykułu");
+define("_CO_PUBLISHER_IMAGE_ITEM_DSC","Obraz reprezentujący artykuł");
+define("_CO_PUBLISHER_IMAGE_UPLOAD","Wstaw obraz");
+//define("_CO_PUBLISHER_IMAGE_UPLOAD_ITEM_DSC","Wybierz obraz na dysku swojego komputera. Ten obraz będzie wstawiony do serwisu i ustawiony jako obraz artykułu.");
+define("_CO_PUBLISHER_SUBCATEGORIES_INFO","Podkategorie w <em>%s</em> :");
+define("_CO_PUBLISHER_SUMMARY","Blok Podsumowanie");
+define("_CO_PUBLISHER_SUMMARY_DSC","To Podsumowanie jest wykorzystywane dla bloków, indeksów i stronach kategorii. Nie just wyświetlne wewnątrz artykułu. ");
+define("_CO_PUBLISHER_TITLE","Tytuł");
+define("_CO_PUBLISHER_SUBTITLE","Podtytuł ");
+define("_CO_PUBLISHER_ERROR","Niestety, wystąpił jakiś błąd!");
+define("_CO_PUBLISHER_SORTBY","Sposób sortowania");
+define("_CO_PUBLISHER_ADD","Dodaj");
+define("_CO_PUBLISHER_REMOVE","Usuń");
+define("_CO_PUBLISHER_PREVIEW","Podlgląd");
+define("_CO_PUBLISHER_CREATE","Utwórz");
+define("_CO_PUBLISHER_CLEAR","Wyczyść");
+define("_CO_PUBLISHER_CANCEL","Anuluj");
+define("_CO_PUBLISHER_IMAGE_ITEMS","Zdjęcia artykułu");
+define("_CO_PUBLISHER_IMAGE_ITEMS_DSC","Proszę wybrać zdjęcia związane z tym artykułem");
+define("_CO_PUBLISHER_IMAGE_PREVIEW","Podgląd obrazu");
+define("_CO_PUBLISHER_NOTIFY","Powiadomić o publikacji?");
+define("_CO_PUBLISHER_FILEUPLOAD_ERROR","Pojawił się błąd podczas wstawiania pliku.");
+define("_CO_PUBLISHER_FILEUPLOAD_SUCCESS","Pomyślnie przesłano plik.");
+define("_CO_PUBLISHER_NEW_FEATURE","Nowa funkcja!");
+define("_CO_PUBLISHER_TAB_MAIN","Main");
+define("_CO_PUBLISHER_TAB_IMAGES","Zdjęć");
+define("_CO_PUBLISHER_TAB_OTHERS","Pozostałe");
+define("_CO_PUBLISHER_TAB_META","Meta dane");
+define("_CO_PUBLISHER_TAB_PERMISSIONS","Uprawnienia");
+define("_CO_PUBLISHER_IMAGE_UPLOAD_NEW","Dodaj nowy obraz");
+//define("_CO_PUBLISHER_IMAGE_UPLOADING","Przesyłanie");
+define("_CO_PUBLISHER_IMAGE_NICENAME","Dodaj nazwę obrazu");
+define("_CO_PUBLISHER_IMAGE_CAT_NONE","Nie znaleziono kategorii obrazu");
+define("_CO_PUBLISHER_IMAGE_CAT_NOPERM","Nie masz uprawnień, aby skorzystać z tej kategorii zdjęcie");
+//30/04/2012
+define("_CO_PUBLISHER_TAB_FILES","Pliki");
+define("_CO_PUBLISHER_FILE","Pliki");
+define("_CO_PUBLISHER_FILE_DESCRIPTION","Opis");
+define("_CO_PUBLISHER_FILE_DESCRIPTION_DSC","Opis pliku, który zostanie dodany.");
+define("_CO_PUBLISHER_FILE_NAME_DSC","Nazwa, która będzie identyfikowała plik.");
+define("_CO_PUBLISHER_FILE_STATUS","Widoczny?");
+define("_CO_PUBLISHER_FILE_STATUS_DSC","Po wybraniu Nie, plik nie będzie widoczny w panelu użytkowników.");
+define("_CO_PUBLISHER_FILE_TO_UPLOAD","Plik do przesłania:");
+define("_CO_PUBLISHER_FILE_TYPE","Typ pliku");
+define("_CO_PUBLISHER_FILE_UPLOAD_ANOTHER","Prześlij ponownie");
+define("_CO_PUBLISHER_FILENAME","Nazwa pliku");
+define("_CO_PUBLISHER_FILES_LINKED","Pliki powiązane z tym artykułem");
+//Added 30/05/2012
+define("_CO_PUBLISHER_EDITFILE","Edycja plików");
+define("_CO_PUBLISHER_DELETEFILE","Usuń plik");
