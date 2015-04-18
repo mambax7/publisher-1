@@ -141,7 +141,7 @@ define("_MI_PUBLISHER_MODULE_SUPPORT","Offizielle Supportwebsite");
 define("_MI_PUBLISHER_NO_FOOTERS","Nein");
 define("_MI_PUBLISHER_ORDERBY","Sortierreihenfolge");
 define("_MI_PUBLISHER_ORDERBY_DATE","Date DESC");
-define("_MI_PUBLISHER_ORDERBY_TITLE","Title ASC");
+define("_MI_PUBLISHER_ORDERBY_TITLE","Titel ASC");
 define("_MI_PUBLISHER_ORDERBY_WEIGHT","Weight ASC");
 define("_MI_PUBLISHER_ORDERBYDSC","Select the sort order of the items throughout the module.");
 define("_MI_PUBLISHER_OTHER_ITEMS_TYPE_ALL","All articles");
