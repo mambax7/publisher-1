@@ -168,7 +168,7 @@ define("_MI_PUBLISHER_SUB_SMNAME1","Submit an article");
 define("_MI_PUBLISHER_SUBMITMSG","Submit page intro message:");
 define("_MI_PUBLISHER_SUBMITMSGDEF","");
 define("_MI_PUBLISHER_SUBMITMSGDSC","Intro message to be displayed in the submit page of the module.");
-define("_MI_PUBLISHER_TITLE_SIZE","Title size:");
+define("_MI_PUBLISHER_TITLE_SIZE","Titel Größe:");
 define("_MI_PUBLISHER_TITLE_SIZEDSC","Set the maximum size of the title in the single item display page.");
 define("_MI_PUBLISHER_UPLOAD","User file upload?");
 define("_MI_PUBLISHER_UPLOADDSC","Allow users to upload files linked to articles on your website?");
