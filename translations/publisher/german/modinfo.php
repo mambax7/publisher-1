@@ -104,7 +104,7 @@ define("_MI_PUBLISHER_ITEM_REJECTED_NOTIFY_DSC","Receive notification if this ar
 define("_MI_PUBLISHER_ITEM_REJECTED_NOTIFY_SBJ","[{X_SITENAME}] {X_MODULE} auto-notify: article rejected");
 define("_MI_PUBLISHER_ITEMFOOTER","Item footer");
 define("_MI_PUBLISHER_ITEMFOOTER_SEL","Item footer");
-define("_MI_PUBLISHER_ITEMFOOTERDSC","Footer that will be displayed for each article.");
+define("_MI_PUBLISHER_ITEMFOOTERDSC","Fußzeile, die für jeden Artikel sichtbar wird.");
 define("_MI_PUBLISHER_ITEMSMENU","Categories Menu block");
 //bd tree block hack
 define("_MI_PUBLISHER_ITEMSTREE","Tree block");
