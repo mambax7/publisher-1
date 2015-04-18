@@ -2,6 +2,7 @@
 host = https://www.transifex.com
 lang_map = en_GB: english, fr_FR: french, de_DE: german, pl_PL: polish, es_ES:spanish, fa_IR: persian, bg_BG: bulgarian, da_DK: danish, it_IT: italian, ja_JP: japanese, nl_NL: dutch, pt_PT: portiguese, pt_BR: brazilian, ru_RU: russian, sk_SK: slovak, zh_TW: chinese_zh
 minimum_perc = 20
+type = PHP_DEFINE
 
 [publisher-1.adminphp]
 file_filter = translations/publisher/<lang>/admin.php
