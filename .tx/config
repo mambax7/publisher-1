@@ -81,6 +81,6 @@ type = PHP_DEFINE
 [publisher-1.modinfophp]
 file_filter = translations/publisher/<lang>/modinfo.php
 source_file = translations/publisher/english/modinfo.php
-source_lang = de_DE/
+source_lang = en_GB
 type = PHP_DEFINE
 
