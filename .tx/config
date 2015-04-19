@@ -1,71 +1,86 @@
 [main]
 host = https://www.transifex.com
-lang_map = en_GB: english, fr_FR: french, de_DE: german, pl_PL: polish, es_ES:spanish, fa_IR: persian, bg_BG: bulgarian, da_DK: danish, it_IT: italian, ja_JP: japanese, nl_NL: dutch, pt_PT: portiguese, pt_BR: brazilian, ru_RU: russian, sk_SK: slovak, zh_TW: chinese_zh
-minimum_perc = 20
+lang_map = ar_SA: arabic, bs_BA: bosnian, pt_BR: brazilian, bg_BG: bulgarian, ca_ES: catalan, zh_CN: chinese_zh, zh_TW: chinese_tw, hr_HR: croatian, cs_CZ: czech, da_DK: danish, nl_NL: dutch, fi_FI: finnish, fr_FR: french, gl_ES: galician, de_DE: german, el_GR: greek, he_IL: hebrew, hu_HU: hungarian, in_ID: indonesian, it_IT: italian, ja_JP: japanese, ko_KR: korean, ms_MY: malay, no_NO: norwegian, fa_IR: persian, pl_PL: polish, pt_PT: portuguese, ro_RO: romanian, ru_RU: russian, sl_SI: slovenian, es_ES: spanish, sv_SE: swedish, tl_PH: tagalog, th_TH: thai, tr_TR: turkish, ur_PK: urdu, vi_VN: vietnamise, uk_UA: ukrainian, sr_RS: serbian, sk_SK: slovak
+
+
+minimum_perc = 1
 type = PHP_DEFINE
 
 [publisher-1.adminphp]
 file_filter = translations/publisher/<lang>/admin.php
+source_file = translations/publisher/english/admin.php
 source_lang = en_GB
 type = PHP_DEFINE
 
 [publisher-1.blocksphp]
 file_filter = translations/publisher/<lang>/blocks.php
+source_file = translations/publisher/english/blocks.php
 source_lang = en_GB
 type = PHP_DEFINE
 
 [publisher-1.category_item_publishedtpl]
 file_filter = translations/publisher/<lang>/category_item_published.tpl
+source_file = translations/publisher/english/category_item_published.tpl
 source_lang = en_GB
 type = HTML
 
 [publisher-1.category_item_submittedtpl]
 file_filter = translations/publisher/<lang>/category_item_submitted.tpl
+source_file = translations/publisher/english/ategory_item_submitted.tpl
 source_lang = en_GB
 type = HTML
 
 [publisher-1.commonphp]
 file_filter = translations/publisher/<lang>/common.php
+source_file = translations/publisher/english/common.php
 source_lang = en_GB
 type = PHP_DEFINE
 
 [publisher-1.global_item_category_createdtpl]
 file_filter = translations/publisher/<lang>/global_item_category_created.tpl
+source_file = translations/publisher/english/global_item_category_created.tpl
 source_lang = en_GB
 type = HTML
 
 [publisher-1.global_item_publishedtpl]
 file_filter = translations/publisher/<lang>/global_item_published.tpl
+source_file = translations/publisher/english/global_item_published.tpl
 source_lang = en_GB
 type = HTML
 
 [publisher-1.global_item_submittedtpl]
 file_filter = translations/publisher/<lang>/global_item_submitted.tpl
+source_file = translations/publisher/english/global_item_submitted.tpl
 source_lang = en_GB
 type = HTML
 
 [publisher-1.helphtmltxt]
 file_filter = translations/publisher/<lang>/helphtml.txt
+source_file = translations/publisher/english/helphtml.txt
 source_lang = en_GB
 type = TXT
 
 [publisher-1.item_approvedtpl]
 file_filter = translations/publisher/<lang>/item_approved.tpl
+source_file = translations/publisher/english/item_approved.tpl
 source_lang = en_GB
 type = HTML
 
 [publisher-1.item_rejectedtpl]
 file_filter = translations/publisher/<lang>/item_rejected.tpl
+source_file = translations/publisher/english/item_rejected.tpl
 source_lang = en_GB
 type = HTML
 
 [publisher-1.mainphp]
 file_filter = translations/publisher/<lang>/main.php
+source_file = translations/publisher/english/main.php
 source_lang = en_GB
 type = PHP_DEFINE
 
 [publisher-1.modinfophp]
 file_filter = translations/publisher/<lang>/modinfo.php
+source_file = translations/publisher/english/modinfo.php
 source_lang = en_GB
 type = PHP_DEFINE
 

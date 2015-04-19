@@ -300,7 +300,7 @@ define("_MI_PUBLISHER_ALLOW_AUTHOR_ITEMS_DSC","");
 define("_MI_PUBLISHER_AUTHOR_ITEMS_DSC","Show items from the same author");
 define("_MI_PUBLISHER_DISP_BLOCK_SUM","Display block summary on items page?");
 define("_MI_PUBLISHER_DISP_BLOCK_SUM_DSC","");
-define("_MI_PUBLISHER_ADMENU0","Home5");
+define("_MI_PUBLISHER_ADMENU0","Home");
 define("_MI_PUBLISHER_DISP_INDEX_SUB","Display items subtitles in index page?");
 define("_MI_PUBLISHER_DISP_INDEX_SUB_DSC","");
 define("_MI_PUBLISHER_DISP_CAT_SUB","Display items subtitles in categories pages?");
@@ -314,5 +314,5 @@ define("_MI_PUBLISHER_ALLOWDELETE","Eigene Artikel löschbar");
 define("_MI_PUBLISHER_ALLOWDELETEDSC","Erlauben den Benutzern, ihre eigenen Artikel zu löschen?");
 
 //1.02 Beta 2
-define("_MI_PUBLISHER_DISPLAY_PDF","Display PDF Icon");
+define("_MI_PUBLISHER_DISPLAY_PDF","Display PDF Icon55");
 define("_MI_PUBLISHER_DISPLAY_PDF_DSC","Select Yes to show PDF icon and allow users to create PDF files");
